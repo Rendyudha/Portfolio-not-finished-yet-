@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  list-style: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+}
+
+main {
+  display: flex;
+}
+
+.background {
+  width: 872px;
+  height: 100vh;
+  background-image: url(asset/image/large\ image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-container {
+  width: 1048px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-value {
+  width: 100vh;
+  margin: 50px;
+  display: flex;
+  /* justify-content: space-between; */
+  flex-direction: column;
+}
+
+.navbar {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  padding: 10px 0;
+}
+
+.navbar a {
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.navbar-left {
+  display: flex;
+  gap: 45px;
+}
+
+.skills {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px 0;
+}
+
+.skills a {
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 2;
+}
+
+.skills-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.skills-right {
+  border-bottom: 1px solid black;
+}
+
+.bio {
+  text-align: end;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 20px 0;
+  margin: 0 0 42px 0;
+}
+
+.bio a {
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 2;
+}
+
+.large-text {
+  height: 175px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: antiquewhite; */
+  margin: 0 0 150px 0;
+}
+
+.large-text h1 {
+  font-size: 300px;
+  letter-spacing: 25px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+footer > h3 {
+  font-size: 54px;
+  font-weight: bold;
+  transform: translateY(25%);
+}
+
+.small-image {
+  width: 192px;
+  height: 192px;
+  background-image: url(asset/image/small\ image.png);
+  background-size: cover;
+}
+
+/* Media Queries */
+
+/* deskstop */
+/* @media (min-width: 1367px) and (max-width: 1440px) {
+  //insert styles here...
+} */
+
+/* Laptop */
+/* @media (min-width: 769px) and (max-width: 1366px) {
+  //insert styles here...
+} */
+
+/* Tablet */
+/* @media (min-width: 481px) and (max-width: 768px) {
+  //insert styles here...
+} */
