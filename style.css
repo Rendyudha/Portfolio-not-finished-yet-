@@ -44,7 +44,6 @@ main {
   width: 100vh;
   margin: 50px;
   display: flex;
-  /* justify-content: space-between; */
   flex-direction: column;
 }
 
@@ -113,7 +112,6 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-color: antiquewhite; */
   margin: 0 0 150px 0;
 }
 
