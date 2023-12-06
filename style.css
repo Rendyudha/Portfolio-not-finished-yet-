@@ -25,6 +25,13 @@ main {
   background-size: cover;
 }
 
+.background h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  margin: 50px 0 0 50px;
+}
+
 .main-container {
   width: 1048px;
   height: 100vh;
