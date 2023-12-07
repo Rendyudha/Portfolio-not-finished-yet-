@@ -15,21 +15,21 @@ body {
 
 main {
   display: flex;
+  align-items: center;
 }
 
 .background {
   width: 872px;
   height: 100vh;
   background-image: url(asset/image/large\ image.jpg);
-  background-repeat: no-repeat;
   background-size: cover;
 }
 
 .background h3 {
+  margin: 50px 0 0 50px;
+  color: white;
   font-size: 18px;
   font-weight: 700;
-  color: white;
-  margin: 50px 0 0 50px;
 }
 
 .main-container {
@@ -37,55 +37,55 @@ main {
   height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .main-value {
-  width: 100vh;
-  margin: 50px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  margin: 50px 50px;
 }
 
 .navbar {
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
   display: flex;
   justify-content: space-between;
-  justify-items: center;
+  align-items: center;
   padding: 10px 0;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 .navbar a {
   color: black;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
 }
 
-.navbar-left {
-  display: flex;
-  gap: 45px;
+.navbar-left a {
+  margin: 0 45px 0 0;
 }
 
 .skills {
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: start;
   padding: 20px 0;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 .skills a {
   color: black;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
-  line-height: 2;
 }
 
 .skills-left {
   display: flex;
   flex-direction: column;
+  gap: 10px;
 }
 
 .skills-right {
@@ -93,31 +93,46 @@ main {
 }
 
 .bio {
-  text-align: end;
+  display: flex;
+  justify-content: right;
+  text-align: right;
+  align-items: center;
+  padding: 20px 0;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
-  padding: 20px 0;
-  margin: 0 0 42px 0;
 }
 
 .bio a {
   color: black;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
-  line-height: 2;
 }
 
 .large-text {
-  height: 175px;
+  z-index: -1;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 0 150px 0;
+  font-size: 245px;
+  height: 175px;
+  letter-spacing: 45px;
+  margin: 25px 0 0 0;
+  /* transform: translateY(-20%); */
 }
 
-.large-text h1 {
-  font-size: 300px;
-  letter-spacing: 25px;
+.outline-text {
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 245px;
+  letter-spacing: 20px;
+  height: 175px;
+  letter-spacing: 45px;
+  margin: 25px 0 80px 0;
+  color: white;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: rgba(0, 0, 0, 0.466);
 }
 
 footer {
@@ -126,32 +141,14 @@ footer {
   align-items: end;
 }
 
-footer > h3 {
-  font-size: 54px;
-  font-weight: bold;
+h3 {
+  font-size: 45px;
   transform: translateY(25%);
 }
 
 .small-image {
-  width: 192px;
-  height: 192px;
+  width: 120px;
+  height: 120px;
   background-image: url(asset/image/small\ image.png);
   background-size: cover;
 }
-
-/* Media Queries */
-
-/* deskstop */
-/* @media (min-width: 1367px) and (max-width: 1440px) {
-  //insert styles here...
-} */
-
-/* Laptop */
-/* @media (min-width: 769px) and (max-width: 1366px) {
-  //insert styles here...
-} */
-
-/* Tablet */
-/* @media (min-width: 481px) and (max-width: 768px) {
-  //insert styles here...
-} */
